@@ -1,4 +1,4 @@
-function holdOn (time:number){
+const holdOn = (time:number)=> {
     const future = Date.now() + time;
     while (Date.now() < future) {}
 }
